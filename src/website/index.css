@@ -413,7 +413,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     font-size: 14px;
-    left: 10%;
+    left: 0%;
     
     /* position: absolute; */
     /* top: 2%; */
