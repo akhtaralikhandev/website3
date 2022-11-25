@@ -347,35 +347,7 @@ const Website = () => {
             </div>
           </div>
         </div>
-        <div className="additional">
-          <div className="leftadd">
-            <p className="pa">In hac habitasse platea dictumst</p>
-            <p className="pa2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fugit
-              sequi tenetur recusandae explicabo sunt obcaecati culpa voluptas
-              debitis ab.
-            </p>
-            <p className="pa3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
-              aliquam.
-            </p>
-            <button className="more">Discover More</button>
-          </div>
-          <div className="rightadd">
-            <div className="con">
-              <div className="leftu">Ut in dapibus ipsum</div>
-              <div className="circlel"></div>
-            </div>
-            <div className="con">
-              <div className="leftu">Ut in dapibus ipsum</div>
-              <div className="circlel"></div>
-            </div>
-            <div className="con">
-              <div className="leftu">Ut in dapibus ipsum</div>
-              <div className="circlel"></div>
-            </div>
-          </div>
-        </div>
+       
       </div>{" "}
     </>
   );
