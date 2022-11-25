@@ -24,6 +24,7 @@
   padding-top: 3em;
   justify-content: space-around;
   margin-right: 4em;
+  position: relative;
 }
 .arrowdown {
   display: flex;
@@ -55,14 +56,22 @@
 .uldown {
   position: absolute;
   top: 70%;
-  right: 0;
+  /* right: 0; */
+  color: white;
   list-style: none;
-  background-color: blanchedalmond;
+  background-color: rgb(59, 58, 56);
   padding: 10px;
   z-index: 1;
 }
 .lid {
   padding: 5px;
+  position: relative;
+}
+.li {
+  position: relative;
+}
+.arrowdown {
+  position: relative;
 }
 
 .main {
@@ -349,13 +358,47 @@ button:hover {
   font-size: 14px;
   font-weight: lighter;
 }
-
+.menuicon {
+  position: absolute;
+  right: 2%;
+  top: 8%;
+  display: none;
+}
 /* first pointer */
 @media only screen and (max-width: 1100px) {
-  .ullinks {
-    display: none;
+  .menuicon {
+    display: block;
+    transition: 0.3s;
+  }
+  .ullinks2 {
+    top: 0;
+    left: 0%;
+    color: white;
+    text-align: center;
+    background-color: rgb(48, 43, 43);
+    width: 100%;
+    position: absolute;
+    background-color: transparent black;
+    list-style: none;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    /* transition: 0.003s; */
+    /* padding: 1px; */
+  }
+  .li {
+    padding-top: 4px;
+  }
+  .arrowdown {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: red; */
+    /* position: absolute; */
   }
 }
+
 @media only screen and (max-width: 800px) {
   .main {
     height: 40vh;
@@ -405,7 +448,7 @@ button:hover {
 }
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    /* background-color: lightblue; */
   }
   .main {
     width: 100%;
